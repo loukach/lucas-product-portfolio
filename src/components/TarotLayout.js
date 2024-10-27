@@ -4,8 +4,8 @@ import cardData from '../data/data';
 
 const TarotCard = ({ title, summary, type, source, isFlipped, onHover }) => {
   const cardImage = type === 'achievement' 
-    ? '../../public/assets/tarot-card-1.svg' 
-    : '../../public/assets/tarot-card-2.svg';
+    ? './public/assets/tarot-card-1.svg' 
+    : './public/assets/tarot-card-2.svg';
 
   return (
     <div 
