@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 500">
+    <!-- Pattern Definition -->
+    <defs>
+        <pattern id="smartPattern" x="0" y="0" width="50" height="50" patternUnits="userSpaceOnUse">
+            <circle cx="25" cy="25" r="2" fill="#2a3f2e" opacity="0.2"/>
+            <circle cx="0" cy="0" r="2" fill="#2a3f2e" opacity="0.2"/>
+            <circle cx="0" cy="50" r="2" fill="#2a3f2e" opacity="0.2"/>
+            <circle cx="50" cy="0" r="2" fill="#2a3f2e" opacity="0.2"/>
+            <circle cx="50" cy="50" r="2" fill="#2a3f2e" opacity="0.2"/>
+        </pattern>
+    </defs>
+    
+    <!-- Base card -->
+    <rect x="0" y="0" width="300" height="500" rx="25" fill="#ddede8"/>
+    
+    <!-- Patterned background -->
+    <rect x="15" y="15" width="270" height="470" rx="15" 
+          fill="url(#smartPattern)" 
+          stroke="#2a3f2e" 
+          stroke-width="8"
+          stroke-linecap="round"/>
+    
+    <!-- Central design -->
+    <g transform="translate(150,250)">
+        <!-- Main circle -->
+        <circle cx="0" cy="0" r="80" 
+                fill="#ddede8" 
+                stroke="#2a3f2e" 
+                stroke-width="8"/>
+        
+        <!-- Hair tufts -->
+        <path d="M-40,-75 C-30,-90 -15,-85 -5,-75 
+                 C5,-90 15,-85 25,-75 
+                 C35,-90 45,-85 55,-75" 
+              fill="none" 
+              stroke="#2a3f2e" 
+              stroke-width="8" 
+              stroke-linecap="round"/>
+        
+        <!-- Eyes -->
+        <path d="M-35,-10 L-15,-10 L-25,5 Z" fill="#2a3f2e"/>
+        <path d="M15,-10 L35,-10 L25,5 Z" fill="#2a3f2e"/>
+        
+        <!-- Whiskers -->
+        <g stroke="#2a3f2e" stroke-width="8" stroke-linecap="round">
+            <line x1="-50" y1="15" x2="-80" y2="5"/>
+            <line x1="-50" y1="30" x2="-80" y2="30"/>
+            <line x1="-50" y1="45" x2="-80" y2="55"/>
+            
+            <line x1="50" y1="15" x2="80" y2="5"/>
+            <line x1="50" y1="30" x2="80" y2="30"/>
+            <line x1="50" y1="45" x2="80" y2="55"/>
+        </g>
+    </g>
+    
+    <!-- Corner elements -->
+    <g stroke="#2a3f2e" 
+       stroke-width="8" 
+       stroke-linecap="round"
+       fill="none">
+        <circle cx="45" cy="45" r="15"/>
+        <circle cx="255" cy="45" r="15"/>
+        <circle cx="45" cy="455" r="15"/>
+        <circle cx="255" cy="455" r="15"/>
+    </g>
+    
+    <!-- Side decorative elements -->
+    <g stroke="#2a3f2e" 
+       stroke-width="8" 
+       stroke-linecap="round"
+       fill="none">
+        <line x1="150" y1="45" x2="150" y2="75"/>
+        <line x1="150" y1="425" x2="150" y2="455"/>
+        <line x1="45" y1="250" x2="75" y2="250"/>
+        <line x1="225" y1="250" x2="255" y2="250"/>
+    </g>
+    
+    <!-- Additional geometric accents -->
+    <g fill="#2a3f2e">
+        <circle cx="150" cy="45" r="4"/>
+        <circle cx="150" cy="455" r="4"/>
+        <circle cx="45" cy="250" r="4"/>
+        <circle cx="255" cy="250" r="4"/>
+    </g>
+</svg>
