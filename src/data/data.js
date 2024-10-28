@@ -72,7 +72,7 @@ export const cardData = [
     summary:
       "Created extensive documentation enabling support, delivery, and engineering teams. Set standards for product information that became company benchmark.",
     type: "feedback",
-    source: "Head of Product"
+    source: "Head of Product",
     employer: "Motork"
   },
   {
