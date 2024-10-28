@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../styles/Card.css';
 import cardData from '../data/data';
 
-const TarotCard = ({ title, summary, type, source, isFlipped, onHover }) => {
+const TarotCard = ({ title, summary, type, source, employer, isFlipped, onHover }) => {
   const cardImage = type === 'achievement' 
     ? './assets/tarot-card-1.svg' 
     : './assets/tarot-card-2.svg';
@@ -22,7 +22,7 @@ const TarotCard = ({ title, summary, type, source, isFlipped, onHover }) => {
         <div className="card-back">
           <h2 className="card-title">{title}</h2>
           <h4 className="card-summary">{summary}</h4>
-          <h5 className="card-source">{source}</h5>
+          <h5 className="card-source">{source}<span> | </span>{employer}</h5>
         </div>
       </div>
     </div>
@@ -74,6 +74,7 @@ const TarotLayout = () => {
             title={card.title}
             summary={card.summary}
             source={card.source}
+            employer={card.employer}
             type={card.type}
             isFlipped={flippedCards[index]}
             onHover={() => handleCardHover(index)}
