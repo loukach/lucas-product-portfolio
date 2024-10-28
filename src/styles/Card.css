@@ -1,7 +1,7 @@
 /* src/styles/Card.css */
 :root {
-    --card-width: 280px;
-    --card-height: 475px;
+    --card-width: 250px;
+    --card-height: 415px;
     
     /* Achievement card colors */
     --achievement-bg: #ddede8;
@@ -34,7 +34,7 @@
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
-    gap: 2rem;
+    gap: 1rem;
     justify-content: flex-start;
     padding: 2rem;
   }
@@ -134,7 +134,7 @@
 
   
   .card-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 600;
     line-height: 1.4;
     overflow-wrap: break-word;

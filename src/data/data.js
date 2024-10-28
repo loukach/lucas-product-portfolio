@@ -15,25 +15,17 @@ export const cardData = [
     source: "-- Chief Product Officer",
   },
   {
-    title: "Immediate Impact Maker",
-    summary:
-      '"Lucas came and out of the bat tried to make a difference in a subtle way. He is commended for his knowledge of product practices"',
-    type: "feedback",
-    source: "-- Head of Product",
-  },
-  {
-    title: "Initiative Completer",
-    summary:
-      '"Lukas has done a great job within the SSK team to complete multiple initiatives and solve large challenges within the platform."',
-    type: "feedback",
-    source: "-- Head of Product",
-  },
-  {
     title: "Cross-functional Leader",
     summary:
       '"his documentation are extensive and unlock support, delivery, engineering teams to do their job right"',
     type: "feedback",
     source: "-- Chief Product Officer",
+  },
+  {
+    title: "AI Integrator",
+    summary:
+      "Background Removal - a flagship AI project positioning the company as the AI champion in its markets. End-to-end ownership from vendor negotiation to go-to-market. Extended from APP to WEB & automated Import",
+    type: "achievement",
   },
   {
     title: "Exceptional Dedication",
@@ -49,10 +41,48 @@ export const cardData = [
     type: "achievement",
   },
   {
-    title: "Ownership, source Idea to Support",
+    title: "Delivery man, from Idea to Support",
     summary:
       "source market research to delivery, entreprise-wide trainings and insights for sales.",
     type: "achievement",
+  },
+  {
+    title: "Owner of Mobile APP",
+    summary:
+      "Launched, maintained mobile APP on Android and iOS, in 6 countries. Used it to test adoption of AI features.",
+    type: "achievement",
+  },
+  {
+    title: "EU-wide enterprise project enablement",
+    summary:
+      "Led the delivery and maintenance of our biggest project - with a Top EU Bank. Successfully expanded to new scopes including LCVs, Spain and France.",
+    type: "achievment",
+  },
+  {
+    title: "Data-Driven Decision Making",
+    summary:
+      "Used data tools - SQL, MongoDB, BigQuery and Looker Studio - to support product decisions and to help Sales identify opportunities.",
+    type: "achievement",
+  },
+  {
+    title: "Cross-functional Orchestrator",
+    summary:
+      "Created extensive documentation enabling support, delivery, and engineering teams. Set standards for product information that became company benchmark.",
+    type: "achievement",
+  },
+  {
+    title: "Immediate Impact Maker",
+    summary:
+      '"Lucas came and out of the bat tried to make a difference in a subtle way. He is commended for his knowledge of product practices"',
+    type: "feedback",
+    source: "-- Head of Product",
+  },
+  {
+    title: "Initiative Completer",
+    summary:
+      '"Lukas has done a great job within the SSK team to complete multiple initiatives and solve large challenges within the platform."',
+    type: "feedback",
+    source: "-- Head of Product",
   },
 ];
 
