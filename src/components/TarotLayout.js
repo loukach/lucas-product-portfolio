@@ -46,9 +46,9 @@ const TarotLayout = () => {
     <div className="tarot-layout">
       <div className="App-header">
       <h1 className="text-4xl font-bold text-left mb-8 text-gray-800">
-        Lucas Gros' Product Portfolio 
+        Lucas' Product Portfolio 
         <a 
-          href="https://www.linkedin.com/in/lucas-gros" 
+          href="https://www.linkedin.com/in/lucasgros" 
           target="_blank" 
           rel="noopener noreferrer" 
           className="ml-8 inline-block"
