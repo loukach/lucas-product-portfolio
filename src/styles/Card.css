@@ -148,12 +148,12 @@
   }
 
   .card.feedback .card-long-description {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: var(--feedback-text);
   }
   .card.achievement .card-long-description {
-    font-size: 0.8rem;
+    font-size: 1rem;
     font-weight: lighter;
     color: var(--achievement-text);
   }
