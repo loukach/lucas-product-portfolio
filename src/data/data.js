@@ -40,14 +40,7 @@ export const cardData = [
     employer: "Motork"
   },
   {
-    title: "AI integration",
-    summary:
-      "Boosting automotive dealers operational efficiency & branding with AI integrations",
-    type: "achievement",
-    employer: "Motork"
-  },
-  {
-    title: "Delivery man, from Idea to Support",
+    title: "Deliverer, from Idea to adoption monitoring",
     summary:
       "source market research to delivery, entreprise-wide trainings and insights for sales.",
     type: "achievement",
@@ -78,7 +71,8 @@ export const cardData = [
     title: "Cross-functional Orchestrator",
     summary:
       "Created extensive documentation enabling support, delivery, and engineering teams. Set standards for product information that became company benchmark.",
-    type: "achievement",
+    type: "feedback",
+    source: "Head of Product"
     employer: "Motork"
   },
   {
