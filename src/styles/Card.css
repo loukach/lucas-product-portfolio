@@ -20,7 +20,7 @@
     padding: 0;
   }
   
-  .tarot-layout {
+  .deck-layout {
     min-height: 100vh;
     overflow-x: hidden;
     background-color: rgb(243, 244, 246);
@@ -29,7 +29,7 @@
     flex-direction: column;
   }
   
-  .tarot-card-container {
+  .card-container {
     width: 80%;
     margin: 0 auto;
     display: flex;
@@ -39,7 +39,7 @@
     padding: 2rem;
   }
   
-  .tarot-card {
+  .card {
     width: var(--card-width);
     height: var(--card-height);
     flex-shrink: 0;
@@ -55,7 +55,7 @@
     transform-style: preserve-3d;
   }
   
-  .tarot-card.is-flipped .card-inner {
+  .card.is-flipped .card-inner {
     transform: rotateY(180deg);
   }
   
@@ -92,16 +92,16 @@
   }
   
   /* Achievement card specific styles */
-  .tarot-card.achievement .card-back {
+  .card.achievement .card-back {
     background-color: var(--achievement-bg);
   }
   
-  .tarot-card.achievement .card-title {
+  .card.achievement .card-title {
     color: var(--achievement-text);
   }
   
 /* Common styles for all card types */
-.tarot-card {
+.card {
     /* Shared styles for summary and source across all types */
     & .card-summary,
     & .card-source {
@@ -111,7 +111,7 @@
 }
 
 /* Feedback card styles */
-.tarot-card.feedback {
+.card.feedback {
     & .card-back {
         background-color: var(--feedback-bg);
     }
@@ -124,7 +124,7 @@
 }
 
 /* Achievement card styles */
-.tarot-card.achievement {
+.card.achievement {
     & .card-title,
     & .card-summary,
     & .card-source {
@@ -146,24 +146,35 @@
     font-size: 1rem;
     
   }
+
+  .card.feedback .card-long-description {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: var(--feedback-text);
+  }
+  .card.achievement .card-long-description {
+    font-size: 0.8rem;
+    font-weight: lighter;
+    color: var(--achievement-text);
+  }
   
-  .tarot-card:hover {
+  .card:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease;
   }
   
-  .tarot-card.is-flipped:hover {
+  .card.is-flipped:hover {
     transform: none;
   }
   
   /* Responsive adjustments */
   @media (max-width: 640px) {
-    .tarot-card {
+    .card {
       width: calc(var(--card-width) * 0.7);
       height: calc(var(--card-height) * 0.7);
     }
     
-    .tarot-card-container {
+    .card-container {
       width: 90%;
       gap: 1rem;
       padding: 1rem;
