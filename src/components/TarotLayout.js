@@ -44,7 +44,8 @@ const TarotLayout = () => {
 
   return (
     <div className="tarot-layout">
-      <h1 className="text-4xl font-bold text-center mb-8 text-gray-800">
+      <div className="App-header">
+      <h1 className="text-4xl font-bold text-left mb-8 text-gray-800">
         Lucas Gros' Product Portfolio 
         <a 
           href="https://www.linkedin.com/in/lucas-gros" 
@@ -65,6 +66,7 @@ const TarotLayout = () => {
           </svg>
         </a>
       </h1>
+      </div>
       <div className="tarot-card-container">
         {cardData.map((card, index) => (
           <TarotCard
