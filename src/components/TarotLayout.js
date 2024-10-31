@@ -51,6 +51,7 @@ const TarotLayout = () => {
             source={card.source}
             employer={card.employer}
             type={card.type}
+            svg={card.svg}
             isFlipped={flippedCards[index]}
             onHover={() => handleCardHover(index)}
             onClick={() => handleCardClick(card)} // Add click handler

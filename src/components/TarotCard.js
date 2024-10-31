@@ -7,6 +7,7 @@ const TarotCard = ({
   long_description,
   type,
   source,
+  svg,
   employer,
   isFlipped,
   onHover,

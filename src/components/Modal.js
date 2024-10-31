@@ -41,15 +41,10 @@ function Modal({ card, onClose }) {
               />
             </div>
             <div className="card-back">
-              <h2 onClick={onClose} className="card-title">
-                {card.title}
-              </h2>
-              <h5 className="card-long-description">{card.long_description}</h5>
-              <h5 className="card-source">
-                {card.source}
-                <span> | </span>
-                {card.employer}
-              </h5>
+              <div 
+                className="w-full h-full"
+                dangerouslySetInnerHTML={{ __html: card.svg }}
+              />
             </div>
           </div>
         </div>
