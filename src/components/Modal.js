@@ -40,11 +40,48 @@ function Modal({ card, onClose }) {
                 style={{ height: "100%", width: "100%", objectFit: "contain" }}
               />
             </div>
-            <div className="card-back">
-              <div 
-                className="w-full h-full"
-                dangerouslySetInnerHTML={{ __html: card.svg }}
-              />
+            <div 
+              className="card-back"
+              style={{
+                position: 'relative',
+                width: '100%',
+                height: '100%',
+                backgroundColor: card.svg ? '#ddede8' : '#1a1a1a' // Different background based on content type
+              }}
+            >
+              {card.svg ? (
+                // SVG Content
+                <div 
+                  className="w-full h-full"
+                  dangerouslySetInnerHTML={{ __html: card.svg }}
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    width: '100%',
+                    height: '100%'
+                  }}
+                />
+              ) : (
+                // Text Content
+                <div className="card-title">
+                  <h3 onClick={onClose} className="text-2xl font-bold text-white cursor-pointer mb-6">
+                    {card.title}
+                  </h3>
+                  <div className="card-long-description">
+                    {card.long_description}
+                  </div>
+                  <div className="card-source">
+                    {card.source && (
+                      <>
+                        {card.source}
+                        <span className="mx-2">|</span>
+                      </>
+                    )}
+                    {card.employer}
+                  </div>
+                </div>
+              )}
             </div>
           </div>
         </div>

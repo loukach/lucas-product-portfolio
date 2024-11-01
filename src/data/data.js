@@ -1,4 +1,14 @@
 export const cardData = [
+    
+    {
+        title: "AI. Background Removal",
+        summary: "Developed 2e2 an AI feature that positioned the company as the AI champion in its markets.\nDdiscovery, vendor negotiation, design, delivery & maintenance. Available on web, mobile and automated flows.",
+        long_description: '"We extended the flagship Background Removal feature to StockSpark WEB and Import (increasing reach from 10% to 100% of SSK customers), enabled pay-per-use, customization of backgrounds and a tiered approach to generate more revenue.\n\nGo-to-market of this feature was recurrently cited by leadership as an example to follow. Quality is remarkably low for a new feature - with only 14 incident tickets in 6 months.\n\nBGR added 84k ACV in 6 months + 56k from the APP (sales almost exclusively driven by BGR). With 6k rd-party costs, it\'s a 10-20x markup."',
+        type: "achievement",
+        employer: "Motork",
+        svg: '<svg viewBox="0 0 379 630" xmlns="http://www.w3.org/2000/svg"><rect width="379" height="630" fill="#ddede8"/><text x="30" y="50" font-family="Inter,system-ui" font-size="24" font-weight="bold" fill="#2a3f2e">Background Removal</text><text x="30" y="75" font-family="Inter,system-ui" font-size="16" fill="#232323">AI-Powered Innovation</text><g transform="translate(30,110)"><text font-family="Inter,system-ui" font-size="36" font-weight="bold" fill="#2a3f2e">€1.2M</text><text x="0" y="30" font-family="Inter,system-ui" font-size="16" fill="#232323">Annual Revenue</text><text x="0" y="55" font-family="Inter,system-ui" font-size="16" fill="#232323" opacity="0.7">from €40k</text><text x="0" y="115" font-family="Inter,system-ui" font-size="36" font-weight="bold" fill="#2a3f2e">82%</text><text x="0" y="145" font-family="Inter,system-ui" font-size="16" fill="#232323">Time Saved</text><text x="0" y="170" font-family="Inter,system-ui" font-size="16" fill="#232323" opacity="0.7">per vehicle</text><text x="0" y="230" font-family="Inter,system-ui" font-size="36" font-weight="bold" fill="#2a3f2e">253</text><text x="0" y="260" font-family="Inter,system-ui" font-size="16" fill="#232323">Paying Customers</text></g><g transform="translate(30,380)"><text font-family="Inter,system-ui" font-size="16" font-weight="bold" fill="#2a3f2e">Implementation Flow</text><g transform="translate(0,35)"><path d="M10,0 L319,0 L269,45 L60,45 Z" fill="#2a3f2e"/><text x="165" y="28" font-family="Inter,system-ui" font-size="14" fill="#ddede8" text-anchor="middle">Mobile App</text><path d="M60,55 L269,55 L219,100 L110,100 Z" fill="#2a3f2e" opacity="0.8"/><text x="165" y="83" font-family="Inter,system-ui" font-size="14" fill="#ddede8" text-anchor="middle">Web Platform</text><path d="M110,110 L219,110 L169,155 L160,155 Z" fill="#2a3f2e" opacity="0.6"/><text x="165" y="138" font-family="Inter,system-ui" font-size="14" fill="#ddede8" text-anchor="middle">Automated Workflows</text></g></g><g transform="translate(30,550)"><text font-family="Inter,system-ui" font-size="16" font-weight="bold" fill="#2a3f2e">Market Distribution</text><rect x="0" y="25" width="223" height="24" fill="#2a3f2e"/><rect x="233" y="25" width="41" height="24" fill="#2a3f2e" opacity="0.6"/><rect x="284" y="25" width="25" height="24" fill="#2a3f2e" opacity="0.3"/><text x="0" y="65" font-family="Inter,system-ui" font-size="14" fill="#232323">IT 70%</text><text x="233" y="65" font-family="Inter,system-ui" font-size="14" fill="#232323">DE 13%</text><text x="284" y="65" font-family="Inter,system-ui" font-size="14" fill="#232323">Other</text></g></svg>'
+ 
+    },
     {
         title: "Smart Problem Solver",
         summary: '"Lucas stands out for his operational excellence. He\'s dedicated to quickly and efficiently solving problems with smart solutions."',
@@ -6,7 +16,6 @@ export const cardData = [
         type: "feedback",
         source: "-- Head of Product",
         employer: "Motork",
-        svg: '<svg viewBox="0 0 500 800" xmlns="http://www.w3.org/2000/svg"><rect width="500" height="800" fill="#ddede8"/><text x="40" y="60" font-family="Inter, system-ui" font-size="28" font-weight="bold" fill="#2a3f2e">Background Removal</text><text x="40" y="90" font-family="Inter, system-ui" font-size="18" fill="#232323">AI-Powered Innovation</text><g transform="translate(40, 140)"><text font-family="Inter, system-ui" font-size="42" font-weight="bold" fill="#2a3f2e">€1.2M</text><text x="0" y="30" font-family="Inter, system-ui" font-size="16" fill="#232323">Annual Revenue</text><text x="0" y="50" font-family="Inter, system-ui" font-size="16" fill="#232323" opacity="0.7">from €40k</text><text x="0" y="120" font-family="Inter, system-ui" font-size="42" font-weight="bold" fill="#2a3f2e">82%</text><text x="0" y="150" font-family="Inter, system-ui" font-size="16" fill="#232323">Time Saved</text><text x="0" y="170" font-family="Inter, system-ui" font-size="16" fill="#232323" opacity="0.7">per vehicle</text><text x="0" y="240" font-family="Inter, system-ui" font-size="42" font-weight="bold" fill="#2a3f2e">253</text><text x="0" y="270" font-family="Inter, system-ui" font-size="16" fill="#232323">Paying Customers</text></g><g transform="translate(40, 420)"><text font-family="Inter, system-ui" font-size="16" font-weight="bold" fill="#2a3f2e">Implementation Flow</text><g transform="translate(0, 40)"><path d="M20,0 L400,0 L340,60 L80,60 Z" fill="#2a3f2e"/><text x="210" y="35" font-family="Inter, system-ui" font-size="16" fill="#ddede8" text-anchor="middle">Mobile App</text><path d="M80,70 L340,70 L280,130 L140,130 Z" fill="#2a3f2e" opacity="0.8"/><text x="210" y="105" font-family="Inter, system-ui" font-size="16" fill="#ddede8" text-anchor="middle">Web Platform</text><path d="M140,140 L280,140 L220,200 L200,200 Z" fill="#2a3f2e" opacity="0.6"/><text x="210" y="175" font-family="Inter, system-ui" font-size="16" fill="#ddede8" text-anchor="middle">Automated Workflows</text></g></g><g transform="translate(40, 680)"><text font-family="Inter, system-ui" font-size="16" font-weight="bold" fill="#2a3f2e">Market Distribution</text><rect x="0" y="30" width="294" height="30" fill="#2a3f2e"/><rect x="304" y="30" width="54.6" height="30" fill="#2a3f2e" opacity="0.6"/><rect x="368.6" y="30" width="33.6" height="30" fill="#2a3f2e" opacity="0.3"/><text x="0" y="80" font-family="Inter, system-ui" font-size="16" fill="#232323">IT 70%</text><text x="304" y="80" font-family="Inter, system-ui" font-size="16" fill="#232323">DE 13%</text><text x="368.6" y="80" font-family="Inter, system-ui" font-size="16" fill="#232323">Other</text></g></svg>'
     },
     {
         title: "Sets High Standards",
@@ -17,18 +26,19 @@ export const cardData = [
         employer: "Motork"
     },
     {
+        title: "Mobile App",
+        summary: "Injected AI features to enhance photos in seconds and to generate videos on demand.",
+        long_description: '"Led the development of StockSpark mobile app, a key component of MotorK\'s automotive retail platform. Implemented AI features including background removal, video generation, and VIN/plate lookup. Expanded market reach through localization to 7 European countries. Achieved significant growth with 5x increase in weekly active users (80 to 400) and maintained stable engagement of 3h07m per user. The app serves 2.6K users across platforms (65.3% iOS, 34.7% Android)."',
+        type: "achievement",
+        employer: "Motork",
+        svg: '<svg viewBox="0 0 379 630" xmlns="http://www.w3.org/2000/svg"><rect width="379" height="630" fill="#ddede8"/><text x="30" y="50" font-family="Inter,system-ui" font-size="24" font-weight="bold" fill="#2a3f2e">StockSpark Mobile App</text><text x="30" y="75" font-family="Inter,system-ui" font-size="16" fill="#232323">AI-Powered Dealer Tool</text><g transform="translate(30,110)"><text font-family="Inter,system-ui" font-size="36" font-weight="bold" fill="#2a3f2e">2.6K</text><text x="0" y="30" font-family="Inter,system-ui" font-size="16" fill="#232323">Total Users</text><text x="0" y="55" font-family="Inter,system-ui" font-size="16" fill="#232323" opacity="0.7">across 7 countries</text><text x="0" y="115" font-family="Inter,system-ui" font-size="36" font-weight="bold" fill="#2a3f2e">3h07m</text><text x="0" y="145" font-family="Inter,system-ui" font-size="16" fill="#232323">Avg. Engagement Time</text><text x="0" y="170" font-family="Inter,system-ui" font-size="16" fill="#232323" opacity="0.7">per user</text><text x="0" y="230" font-family="Inter,system-ui" font-size="36" font-weight="bold" fill="#2a3f2e">5x</text><text x="0" y="260" font-family="Inter,system-ui" font-size="16" fill="#232323">User Growth</text><text x="0" y="285" font-family="Inter,system-ui" font-size="16" fill="#232323" opacity="0.7">in 12 months</text></g><g transform="translate(30,380)"><text font-family="Inter,system-ui" font-size="16" font-weight="bold" fill="#2a3f2e">Weekly Active Users Growth</text><g transform="translate(0,35)"><rect width="319" height="160" fill="#ffffff" opacity="0.3"/><path d="M0,160 L0,120 C26.6,120 53.2,110 79.8,100 C106.3,90 132.9,85 159.5,75 C186.1,65 212.7,55 239.3,45 C265.8,35 292.4,30 319,20 L319,160 Z" fill="#2a3f2e" opacity="0.1"/><path d="M0,120 C26.6,120 53.2,110 79.8,100 C106.3,90 132.9,85 159.5,75 C186.1,65 212.7,55 239.3,45 C265.8,35 292.4,30 319,20" stroke="#2a3f2e" fill="none" stroke-width="2"/><text x="0" y="180" font-family="Inter,system-ui" font-size="12" fill="#232323">Dec 2022</text><text x="319" y="180" font-family="Inter,system-ui" font-size="12" fill="#232323" text-anchor="end">Dec 2023</text><text x="0" y="15" font-family="Inter,system-ui" font-size="12" fill="#232323">400</text><text x="0" y="155" font-family="Inter,system-ui" font-size="12" fill="#232323">80</text></g></g><g transform="translate(30,620)"><text font-family="Inter,system-ui" font-size="16" font-weight="bold" fill="#2a3f2e">Platform Distribution</text><g transform="translate(0,-30)"><rect x="0" y="25" width="223" height="24" fill="#2a3f2e"/><rect x="233" y="25" width="116" height="24" fill="#2a3f2e" opacity="0.6"/><text x="0" y="65" font-family="Inter,system-ui" font-size="14" fill="#232323">iOS 65.3%</text><text x="233" y="65" font-family="Inter,system-ui" font-size="14" fill="#232323">Android 34.7%</text></g></g></svg>'
+    },
+    {
         title: "Cross-functional Leader",
         summary: '"his documentation are extensive and unlock support, delivery, engineering teams to do their job right"',
         long_description: '"His documentation are extensive and unlock support, delivery, engineering teams to do their job right. His analytical skills allow him to take informed decisions and question if some requests are not clear / not obvious.\n\nLucas connects the right people and cultivates a collaborative atmosphere, ensuring everyone shares a clear understanding of problems, solutions and priorities."',
         type: "feedback",
         source: "-- Chief Product Officer",
-        employer: "Motork"
-    },
-    {
-        title: "AI Integrator",
-        summary: "Background Removal - a flagship AI project positioning the company as the AI champion in its markets. End-to-end ownership from vendor negotiation to go-to-market. Extended from APP to WEB & automated Import",
-        long_description: '"We extended the flagship Background Removal feature to StockSpark WEB and Import (increasing reach from 10% to 100% of SSK customers), enabled pay-per-use, customization of backgrounds and a tiered approach to generate more revenue.\n\nGo-to-market of this feature was recurrently cited by leadership as an example to follow. Quality is remarkably low for a new feature - with only 14 incident tickets in 6 months.\n\nBGR added 84k ACV in 6 months + 56k from the APP (sales almost exclusively driven by BGR). With 6k rd-party costs, it\'s a 10-20x markup."',
-        type: "achievement",
         employer: "Motork"
     },
     {
@@ -40,16 +50,9 @@ export const cardData = [
         employer: "Motork"
     },
     {
-        title: "Deliverer, from Idea to adoption monitoring",
-        summary: "Source market research to delivery, entreprise-wide trainings and insights for sales.",
-        long_description: '"I successfully delivered the flagship project Background Removal, releasing it via the APP 1 month ago and within weeks to all channels so it will reach our entire 2k+ customer base. This is the project that current supports Motork positioning as an AI-expert.\n\nI assumed it fully (with occasional key backup from Miguel of course) - from gathering requirements, negotiating a contract with a 3rd party provider, planning and delivering the feature, setting the internal operational processes and training the organization to sell, activate and support this new source of revenue.\n\nTimelines communicated to markets were met."',
-        type: "achievement",
-        employer: "Motork"
-    },
-    {
-        title: "Owner of Mobile APP",
-        summary: "Launched, maintained mobile APP on Android and iOS, in 6 countries. Used it to test adoption of AI features.",
-        long_description: '"We enabled (localised) APP in Portugal and Benelux. Increased its reliability: SSK APP maintenance cost is residual with one mobile dev working ~1day/week. Support tickets are stable."',
+        title: "Polyglot",
+        summary: "Interviewed customers in Italy, France and Spain ; maintained mobile and web applications in 6 countries.",
+        long_description: '"I evolved and maintained the localization of our mobile and web application via POEditor, and extended them to new countries - Portugal, Germany and Benelux',
         type: "achievement",
         employer: "Motork"
     },
